@@ -1,0 +1,21 @@
+Some basic ROP stuff. For the last problem, https://github.com/JonathanSalwan/ROPgadget will be quite useful.
+
+Compile it like so:
+
+$ gcc -m32 rop1.c
+
+But I did compile it for you anyways...
+
+It's a super-simple buffer overflow - you're supposed to be learning ROP.
+
+Have fun! 
+Feel free to ask bspar (hackint IRC) or will@whitehatters.org for help. Or many other people on IRC. There's also #WCSChelp (on IRC) with lots of helpful people. And #WCSCbinary was made for this, so check there, too! Or do whatever you want.
+
+
+rop1: simple ROP to shell()
+
+rop2: requires slightly more creativity
+
+rop3: basic ROP! You'll need some gadgets for this one
+
+sploit3: rop3 solution - cheating makes me sad :(
